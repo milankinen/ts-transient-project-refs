@@ -1,0 +1,13 @@
+{
+  "name": "@myproject/app-a",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc -b --verbose"
+  },
+  "dependencies": {
+    "@myproject/database": "*"
+  }
+}
